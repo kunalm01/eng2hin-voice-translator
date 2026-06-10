@@ -1,4 +1,4 @@
-# Submission
+# eng2hin-voice-translator
 
 ## Overview
 
@@ -23,7 +23,6 @@ Audio Output
 ## Setup
 
 ```bash
-cd submission
 export GROQ_API_KEY="your-groq-api-key"
 pip install -r requirements.txt
 ```
@@ -33,18 +32,18 @@ pip install -r requirements.txt
 Terminal 1:
 
 ```bash
-python asr_server.py
+python server.py
 ```
 
 Terminal 2:
 
 ```bash
-python app.py
+python client.py
 ```
 
 ## Design Decisions
 
-* WhisperLive-style streaming ASR is implemented locally to keep the submission self-contained.
+* WhisperLive-style streaming ASR is implemented locally to keep the project self-contained.
 * Groq is used for low-latency English-to-Hindi translation.
 * Edge-TTS is used for natural Hindi speech synthesis.
 * Transcript stabilization avoids translating partial ASR hypotheses too early.

@@ -44,7 +44,7 @@ class ASRClient:
         ws.send(
             json.dumps(
                 {
-                    "uid": "submission-client",
+                    "uid": "voice-translator-client",
                     "language": self.language,
                     "model": self.model,
                     "task": "transcribe",

@@ -158,7 +158,7 @@ class SimpleASRServer:
                     conn,
                     json.dumps(
                         {
-                            "uid": "submission-client",
+                            "uid": "voice-translator-server",
                             "segments": [
                                 {
                                     "start": f"{speech_started_at:.3f}",
