@@ -6,19 +6,7 @@ Real-time English to Hindi voice translator.
 
 ## Architecture
 
-```text
-Microphone
-↓
-Streaming ASR
-↓
-Transcript Stabilizer
-↓
-Groq Translation
-↓
-Hindi TTS
-↓
-Audio Output
-```
+![Architecture diagram](/Users/kunal/Desktop/Pers/submission/architecture.svg)
 
 ## Setup
 

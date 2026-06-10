@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120">
+  <defs>
+    <style>
+      .bg { fill: #0b0f14; }
+      .box { fill: #111827; stroke: #8b949e; stroke-width: 2; rx: 18; ry: 18; }
+      .title { fill: #e5eef8; font: 700 28px Arial, sans-serif; }
+      .body { fill: #d1d5db; font: 400 20px Arial, sans-serif; }
+      .small { fill: #cbd5e1; font: 400 17px Arial, sans-serif; }
+      .arrow { stroke: #9ca3af; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .label { fill: #0b0f14; font: 700 18px Arial, sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="900"/>
+
+  <rect class="box" x="390" y="40" width="420" height="90"/>
+  <text class="title" x="600" y="80" text-anchor="middle">Microphone</text>
+  <text class="body" x="600" y="110" text-anchor="middle">Live Audio In</text>
+
+  <rect class="box" x="320" y="175" width="560" height="110"/>
+  <text class="title" x="600" y="215" text-anchor="middle">WhisperLive</text>
+  <text class="body" x="600" y="245" text-anchor="middle">Faster-Whisper ASR</text>
+
+  <rect class="box" x="300" y="335" width="600" height="120"/>
+  <text class="title" x="600" y="377" text-anchor="middle">Transcript Stabilizer</text>
+  <text class="body" x="600" y="410" text-anchor="middle">Deduplication Logic</text>
+  <text class="body" x="600" y="438" text-anchor="middle">Partial Result Filter</text>
+
+  <rect class="box" x="330" y="505" width="540" height="110"/>
+  <text class="title" x="600" y="545" text-anchor="middle">Groq Translator</text>
+  <text class="body" x="600" y="575" text-anchor="middle">English → Hindi LLM</text>
+
+  <rect class="box" x="300" y="670" width="600" height="120"/>
+  <text class="title" x="600" y="712" text-anchor="middle">Hindi Text</text>
+  <text class="body" x="600" y="745" text-anchor="middle">Named Entity Protection</text>
+  <text class="body" x="600" y="773" text-anchor="middle">Filler Word Removal</text>
+
+  <rect class="box" x="350" y="840" width="500" height="110"/>
+  <text class="title" x="600" y="882" text-anchor="middle">Edge-TTS</text>
+  <text class="body" x="600" y="912" text-anchor="middle">Hindi Speech Synthesis</text>
+
+  <rect class="box" x="490" y="1005" width="220" height="90"/>
+  <text class="title" x="600" y="1047" text-anchor="middle">Speaker</text>
+  <text class="body" x="600" y="1075" text-anchor="middle">Audio</text>
+
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 130 L 600 170"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 285 L 600 330"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 455 L 600 500"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 615 L 600 665"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 790 L 600 835"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 950 L 600 1000"/>
+</svg>
