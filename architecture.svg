@@ -14,7 +14,7 @@
     </marker>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1200" height="900"/>
+  <rect class="bg" x="0" y="0" width="1200" height="1120"/>
 
   <rect class="box" x="390" y="40" width="420" height="90"/>
   <text class="title" x="600" y="80" text-anchor="middle">Microphone</text>
@@ -42,14 +42,14 @@
   <text class="title" x="600" y="882" text-anchor="middle">Edge-TTS</text>
   <text class="body" x="600" y="912" text-anchor="middle">Hindi Speech Synthesis</text>
 
-  <rect class="box" x="490" y="1005" width="220" height="90"/>
-  <text class="title" x="600" y="1047" text-anchor="middle">Speaker</text>
-  <text class="body" x="600" y="1075" text-anchor="middle">Audio</text>
+  <rect class="box" x="490" y="1000" width="220" height="90"/>
+  <text class="title" x="600" y="1042" text-anchor="middle">Speaker</text>
+  <text class="body" x="600" y="1070" text-anchor="middle">Audio</text>
 
   <path class="arrow" marker-end="url(#arrowhead)" d="M 600 130 L 600 170"/>
   <path class="arrow" marker-end="url(#arrowhead)" d="M 600 285 L 600 330"/>
   <path class="arrow" marker-end="url(#arrowhead)" d="M 600 455 L 600 500"/>
   <path class="arrow" marker-end="url(#arrowhead)" d="M 600 615 L 600 665"/>
   <path class="arrow" marker-end="url(#arrowhead)" d="M 600 790 L 600 835"/>
-  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 950 L 600 1000"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M 600 950 L 600 995"/>
 </svg>
