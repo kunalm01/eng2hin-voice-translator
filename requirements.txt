@@ -1,0 +1,6 @@
+groq
+edge-tts
+websocket-client
+pyaudio
+faster-whisper
+numpy
